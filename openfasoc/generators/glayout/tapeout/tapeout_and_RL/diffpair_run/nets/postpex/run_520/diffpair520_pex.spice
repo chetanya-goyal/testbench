@@ -1,0 +1,65 @@
+* NGSPICE file created from diffpair520.ext - technology: sky130A
+
+.subckt diffpair520 minus drain_right drain_left source plus
+X0 drain_right.t1 minus.t0 source.t3 a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=5.85 ps=30.78 w=15 l=0.5
+X1 a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=46.8 ps=246.24 w=15 l=0.5
+X2 a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.5
+X3 drain_left.t1 plus.t0 source.t1 a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=5.85 ps=30.78 w=15 l=0.5
+X4 a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.5
+X5 drain_left.t0 plus.t1 source.t0 a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=5.85 ps=30.78 w=15 l=0.5
+X6 a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.5
+X7 drain_right.t0 minus.t1 source.t2 a_n1048_n3892# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=5.85 ps=30.78 w=15 l=0.5
+R0 minus.n0 minus.t0 998.247
+R1 minus.n0 minus.t1 969.369
+R2 minus minus.n0 0.188
+R3 source.n1 source.t3 45.521
+R4 source.n3 source.t2 45.5208
+R5 source.n2 source.t1 45.5208
+R6 source.n0 source.t0 45.5208
+R7 source.n2 source.n1 25.0066
+R8 source.n4 source.n0 18.6704
+R9 source.n4 source.n3 5.62119
+R10 source.n1 source.n0 0.828086
+R11 source.n3 source.n2 0.828086
+R12 source source.n4 0.188
+R13 drain_right drain_right.t0 92.3187
+R14 drain_right drain_right.t1 68.21
+R15 plus plus.t0 990.991
+R16 plus plus.t1 976.149
+R17 drain_left drain_left.t1 92.8719
+R18 drain_left drain_left.t0 68.5678
+C0 minus plus 5.00734f
+C1 drain_right minus 2.15212f
+C2 drain_right plus 0.253178f
+C3 source drain_left 7.51772f
+C4 source minus 1.46274f
+C5 drain_left minus 0.171767f
+C6 source plus 1.47749f
+C7 drain_right source 7.50552f
+C8 drain_left plus 2.24506f
+C9 drain_right drain_left 0.444347f
+C10 drain_right a_n1048_n3892# 7.59729f
+C11 drain_left a_n1048_n3892# 7.72846f
+C12 source a_n1048_n3892# 6.90037f
+C13 minus a_n1048_n3892# 4.109908f
+C14 plus a_n1048_n3892# 8.74931f
+C15 drain_left.t1 a_n1048_n3892# 3.31501f
+C16 drain_left.t0 a_n1048_n3892# 2.95331f
+C17 plus.t1 a_n1048_n3892# 1.18256f
+C18 plus.t0 a_n1048_n3892# 1.21959f
+C19 drain_right.t0 a_n1048_n3892# 3.32397f
+C20 drain_right.t1 a_n1048_n3892# 2.9777f
+C21 source.t0 a_n1048_n3892# 2.32474f
+C22 source.n0 a_n1048_n3892# 1.09978f
+C23 source.t3 a_n1048_n3892# 2.32474f
+C24 source.n1 a_n1048_n3892# 1.43496f
+C25 source.t1 a_n1048_n3892# 2.32474f
+C26 source.n2 a_n1048_n3892# 1.43496f
+C27 source.t2 a_n1048_n3892# 2.32474f
+C28 source.n3 a_n1048_n3892# 0.415298f
+C29 source.n4 a_n1048_n3892# 1.28659f
+C30 minus.t0 a_n1048_n3892# 1.22585f
+C31 minus.t1 a_n1048_n3892# 1.1568f
+C32 minus.n0 a_n1048_n3892# 4.78397f
+.ends
+

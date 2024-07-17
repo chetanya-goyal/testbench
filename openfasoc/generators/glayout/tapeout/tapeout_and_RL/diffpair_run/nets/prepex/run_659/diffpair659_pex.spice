@@ -1,0 +1,57 @@
+* NGSPICE file created from diffpair659.ext - technology: sky130A
+
+.subckt diffpair659 minus drain_right drain_left source plus
+X0 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X1 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X2 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X3 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X4 a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=78 ps=406.24 w=25 l=0.2
+X5 a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+X6 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X7 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X8 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X9 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X10 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X11 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X12 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X13 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X14 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X15 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X16 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X17 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X18 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X19 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X20 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X21 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X22 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X23 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X24 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X25 a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+X26 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X27 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X28 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X29 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X30 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X31 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X32 drain_right minus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X33 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X34 a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+X35 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X36 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X37 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X38 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X39 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X40 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X41 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X42 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X43 source minus drain_right a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X44 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X45 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X46 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X47 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X48 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X49 source plus drain_left a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+X50 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X51 drain_left plus source a_n2094_n5888# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=4.125 ps=25.33 w=25 l=0.2
+.ends
+

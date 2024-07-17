@@ -94,13 +94,12 @@ def extract_mid(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_
         with open(str(tmpdirname / f"{comp_name}_perf_eval.sp"), "w") as f:
             f.write(template)
             
-        # if comp_name == "opamp":
-        #     process_netlist_subckt(str(tmpdirname / f"{comp_name}_pex.spice"), temperature_info[1], cload=cload, noparasitics=noparasitics)
+        if comp_name == "opamp":
+            process_netlist_subckt(str(tmpdirname / f"{comp_name}_pex.spice"), temperature_info[1], cload=cload, noparasitics=noparasitics)
         
         # rename(str(tmpdirname / f"{comp_name}_pex.spice"), str(tmpdirname / f"{comp_name}_pex.spice"))
     except:
         pass
-        
 
 def run_subproc(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_info, cload, noparasitics, area):
     # if os.path.exists(str(tmpdirname / f"result_ac.txt")):
@@ -318,10 +317,10 @@ if __name__ == "__main__":
         
     elif sys.argv[-1] == "opamp":
         heredir = Path(__file__).parent.resolve() / "opamp_run" / "nets"
-        params = get_small_parameter_list()
-        # params = small_parameters_list(test_mode=True)
+
+        params = small_parameters_list(test_mode=True)
         # params = opamp_parameters_serializer()
-        # print(params)
+        print(params)
         comp_name = "opamp"
         index = 0
     

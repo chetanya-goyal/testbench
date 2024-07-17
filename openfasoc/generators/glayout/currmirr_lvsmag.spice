@@ -1,0 +1,17 @@
+* NGSPICE file created from currmirr.ext - technology: sky130A
+
+.subckt transformed_1257ebc9 VSUBS
+X0 a_n477_n300# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+X1 a_n853_n496# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+X2 a_1058_n300# a_1058_n300# a_1058_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=2.85 ps=13.9 w=3 l=0.15
+X3 a_n477_n300# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+X4 a_n853_n496# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+X5 a_n477_n300# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+X6 a_n1278_n300# a_n1278_n300# a_n1278_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=2.85 ps=13.9 w=3 l=0.15
+X7 a_n853_n496# a_n853_n496# a_n930_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=1.425 pd=6.95 as=1.425 ps=6.95 w=3 l=0.15
+.ends
+
+.subckt currmirr
+Xtransformed_1257ebc9_0 VSUBS transformed_1257ebc9
+.ends
+

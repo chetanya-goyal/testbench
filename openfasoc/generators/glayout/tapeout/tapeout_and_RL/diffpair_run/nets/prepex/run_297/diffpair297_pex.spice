@@ -1,0 +1,41 @@
+* NGSPICE file created from diffpair297.ext - technology: sky130A
+
+.subckt diffpair297 minus drain_right drain_left source plus
+X0 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X1 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.6
+X2 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X3 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X4 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.6
+X5 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X6 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X7 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X8 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.6
+X9 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X10 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X11 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X12 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.6
+X13 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X14 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X15 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X16 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.6
+X17 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X18 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X19 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.6
+X20 a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=18.72 ps=102.24 w=6 l=0.6
+X21 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X22 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X23 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X24 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.6
+X25 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X26 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X27 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.6
+X28 a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.6
+X29 drain_left plus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X30 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X31 drain_right minus source a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X32 source plus drain_left a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X33 a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.6
+X34 source minus drain_right a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.6
+X35 a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# a_n2390_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.6
+.ends
+

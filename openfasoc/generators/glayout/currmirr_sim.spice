@@ -1,0 +1,39 @@
+| units: 500000 tech: sky130A format: MIT
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n477_n300# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=805 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n853_n496# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=-834 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_1058_n300# transformed_1257ebc9_0/a_1058_n300# transformed_1257ebc9_0/a_1058_n300# VSUBS d=57000,1390 l=30 w=600 x=1153 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n477_n300# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=-506 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n853_n496# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=477 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n477_n300# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=149 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n1278_n300# transformed_1257ebc9_0/a_n1278_n300# transformed_1257ebc9_0/a_n1278_n300# VSUBS d=57000,1390 l=30 w=600 x=-1182 y=-299 sky130_fd_pr__nfet_01v8
+x transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n853_n496# VSUBS s=57000,1390 d=57000,1390 l=30 w=600 x=-178 y=-299 sky130_fd_pr__nfet_01v8
+C transformed_1257ebc9_0/a_n1278_n300# transformed_1257ebc9_0/a_n853_n496# 0.2
+C transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n1278_n300# 0.1
+C transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n853_n496# 5.1
+C transformed_1257ebc9_0/a_1058_n300# transformed_1257ebc9_0/a_n853_n496# 0.0
+C transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_1058_n300# 0.1
+C transformed_1257ebc9_0/a_n477_n300# transformed_1257ebc9_0/a_n853_n496# 0.3
+C transformed_1257ebc9_0/a_n477_n300# transformed_1257ebc9_0/a_n930_n300# 3.6
+C transformed_1257ebc9_0/a_n477_n300# transformed_1257ebc9_0/a_1058_n300# 0.1
+C transformed_1257ebc9_0/a_n477_n300#0 1.5
+R transformed_1257ebc9_0/a_n477_n300# 3458
+C transformed_1257ebc9_0/a_n930_n300#0 1.7
+R transformed_1257ebc9_0/a_n930_n300# 7173
+= transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/c_route_a2243917_0/m1_914_329#
+= transformed_1257ebc9_0/a_n930_n300# transformed_1257ebc9_0/a_n602_n300#
+C transformed_1257ebc9_0/a_1058_n300#0 0.6
+R transformed_1257ebc9_0/a_1058_n300# 3293
+C transformed_1257ebc9_0/a_n853_n496#0 4.7
+R transformed_1257ebc9_0/a_n853_n496# 14296
+= transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/c_route_b6b6c580_0/m1_n1179_n742#
+= transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/L_route_70abd88a_0/m1_n1179_401#
+= transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n805_n300#
+= transformed_1257ebc9_0/a_n853_n496# transformed_1257ebc9_0/a_n525_n722#
+C transformed_1257ebc9_0/a_n1278_n300#0 0.6
+R transformed_1257ebc9_0/a_n1278_n300# 3293
+R VSUBS 24338
+= VSUBS Unnamed_b45c9107$1_0/a_n1528_n951#
+= VSUBS transformed_1257ebc9_0/VSUBS
+= VSUBS transformed_1257ebc9_0/c_route_a2243917_0/VSUBS
+= VSUBS transformed_1257ebc9_0/c_route_b6b6c580_0/VSUBS
+= VSUBS transformed_1257ebc9_0/L_route_70abd88a_0/VSUBS

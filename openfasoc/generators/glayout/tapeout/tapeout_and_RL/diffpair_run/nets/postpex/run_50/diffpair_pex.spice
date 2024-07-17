@@ -1,0 +1,52 @@
+* NGSPICE file created from diffpair.ext - technology: sky130A
+
+.subckt diffpair minus drain_right drain_left source plus
+X0 drain_right.t1 minus.t0 source.t2 a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0.39 ps=2.78 w=1 l=0.6
+X1 drain_left.t1 plus.t0 source.t3 a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0.39 ps=2.78 w=1 l=0.6
+X2 a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=3.12 ps=22.24 w=1 l=0.6
+X3 drain_right.t0 minus.t1 source.t1 a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0.39 ps=2.78 w=1 l=0.6
+X4 a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0 ps=0 w=1 l=0.6
+X5 a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0 ps=0 w=1 l=0.6
+X6 drain_left.t0 plus.t1 source.t0 a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0.39 ps=2.78 w=1 l=0.6
+X7 a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# a_n1088_n1092# sky130_fd_pr__nfet_01v8 ad=0.39 pd=2.78 as=0 ps=0 w=1 l=0.6
+R0 minus.n0 minus.t0 291.921
+R1 minus.n0 minus.t1 273.498
+R2 minus minus.n0 0.188
+R3 source.n0 source.t3 243.255
+R4 source.n1 source.t2 243.255
+R5 source.n3 source.t1 243.254
+R6 source.n2 source.t0 243.254
+R7 source.n2 source.n1 14.573
+R8 source.n4 source.n0 8.10747
+R9 source.n4 source.n3 5.66429
+R10 source.n1 source.n0 0.87119
+R11 source.n3 source.n2 0.87119
+R12 source source.n4 0.188
+R13 drain_right drain_right.t0 279.575
+R14 drain_right drain_right.t1 265.986
+R15 plus plus.t1 289.969
+R16 plus plus.t0 274.974
+R17 drain_left drain_left.t0 280.127
+R18 drain_left drain_left.t1 266.387
+C0 drain_left minus 0.179453f
+C1 source plus 0.495863f
+C2 drain_right source 1.64027f
+C3 drain_left plus 0.47827f
+C4 drain_right drain_left 0.448653f
+C5 minus plus 2.46882f
+C6 drain_right minus 0.378165f
+C7 drain_right plus 0.263719f
+C8 source drain_left 1.64181f
+C9 source minus 0.481955f
+C10 drain_right a_n1088_n1092# 1.66738f
+C11 drain_left a_n1088_n1092# 1.76924f
+C12 source a_n1088_n1092# 1.86424f
+C13 minus a_n1088_n1092# 3.136516f
+C14 plus a_n1088_n1092# 5.09364f
+C15 plus.t0 a_n1088_n1092# 0.153946f
+C16 plus.t1 a_n1088_n1092# 0.213099f
+C17 minus.t0 a_n1088_n1092# 0.211932f
+C18 minus.t1 a_n1088_n1092# 0.14636f
+C19 minus.n0 a_n1088_n1092# 2.11295f
+.ends
+

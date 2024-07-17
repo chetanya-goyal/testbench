@@ -1,0 +1,17 @@
+* NGSPICE file created from diffpair221.ext - technology: sky130A
+
+.subckt diffpair221 minus drain_right drain_left source plus
+X0 drain_right minus source a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.7
+X1 source minus drain_right a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.7
+X2 a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=9.36 ps=54.24 w=3 l=0.7
+X3 source minus drain_right a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.7
+X4 source plus drain_left a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.7
+X5 drain_left plus source a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.7
+X6 source plus drain_left a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.7
+X7 a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.7
+X8 drain_right minus source a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.7
+X9 drain_left plus source a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.7
+X10 a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.7
+X11 a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# a_n1334_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.7
+.ends
+

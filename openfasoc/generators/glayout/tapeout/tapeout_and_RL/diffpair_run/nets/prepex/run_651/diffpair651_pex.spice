@@ -1,0 +1,17 @@
+* NGSPICE file created from diffpair651.ext - technology: sky130A
+
+.subckt diffpair651 minus drain_right drain_left source plus
+X0 drain_right minus source a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X1 a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=78 ps=406.24 w=25 l=0.2
+X2 a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+X3 a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+X4 drain_left plus source a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X5 source plus drain_left a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X6 drain_left plus source a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X7 source minus drain_right a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X8 source minus drain_right a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X9 drain_right minus source a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=4.125 pd=25.33 as=9.75 ps=50.78 w=25 l=0.2
+X10 source plus drain_left a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=4.125 ps=25.33 w=25 l=0.2
+X11 a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# a_n1034_n5892# sky130_fd_pr__nfet_01v8 ad=9.75 pd=50.78 as=0 ps=0 w=25 l=0.2
+.ends
+
