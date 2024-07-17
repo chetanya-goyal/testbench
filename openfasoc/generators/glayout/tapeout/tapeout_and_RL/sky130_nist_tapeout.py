@@ -641,6 +641,11 @@ def get_small_parameter_list(test_mode = False, clarge=False) -> np.array:
 		print("created parameter set of length: "+str(len(short_list)))
 		import sys
 		sys.exit()
+	# return a random bunch of 720 
+	num_params = 720 
+	if len(short_list) > num_params:
+		np.random.shuffle(short_list)
+		short_list = short_list[:num_params]
 	return short_list
 
 def get_sim_results(acpath: Union[str,Path], dcpath: Union[str,Path], noisepath: Union[str,Path], component: Optional[str]="opamp"):

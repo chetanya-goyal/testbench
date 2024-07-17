@@ -43,7 +43,7 @@ def custom_run(
         component = sky130_add_diffpair_labels(diff_pair(sky130, **new_params))
     elif comp_name == "opamp":
         new_params = opamp_parameters_de_serializer(params)
-        component = sky130_add_opamp_labels(sky130_add_lvt_layer(opamp(sky130, **new_params)))
+        component = sky130_add_opamp_labels(opamp(sky130, **new_params))
     else:
         component = sky130_add_currmirror_labels(current_mirror(sky130, **params))
     component.name = comp_name + str(index)
@@ -76,6 +76,7 @@ def extract_mid(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_
     #     return
     try:
         # Popen(["bash", "extract.bash", tmp_gds_path, comp_name + str(index)], cwd=tmpdirname).wait(timeout=750)
+        # copyfile(f"{comp_name}_perf_eval.sp", str(tmpdirname / f"{comp_name}_perf_eval.sp"))
         copyfile(f"{comp_name}_perf_eval.sp", str(tmpdirname / f"{comp_name}_perf_eval.sp"))
         print(f"Running simulation at temperature: {temperature_info[0]}C")
         
@@ -99,7 +100,6 @@ def extract_mid(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_
         # rename(str(tmpdirname / f"{comp_name}_pex.spice"), str(tmpdirname / f"{comp_name}_pex.spice"))
     except:
         pass
-        
 
 def run_subproc(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_info, cload, noparasitics, area):
     # if os.path.exists(str(tmpdirname / f"result_ac.txt")):
@@ -317,6 +317,7 @@ if __name__ == "__main__":
         
     elif sys.argv[-1] == "opamp":
         heredir = Path(__file__).parent.resolve() / "opamp_run" / "nets"
+
         params = small_parameters_list(test_mode=True)
         # params = opamp_parameters_serializer()
         print(params)

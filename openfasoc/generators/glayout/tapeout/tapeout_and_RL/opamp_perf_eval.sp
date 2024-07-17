@@ -44,8 +44,8 @@ Ibiaso  VDD biason   {bo}
 *@@cryo .include ./sky130A/cryo_models/pmos.spice
 
 ** Import opamp subcircuit
-.include opamp_pex.spice
-XDUT vo VDD vip vin biascsn biason biasdpn GND csoutputnetNC opamp
+.include opamp@@NUM_pex.spice
+XDUT vo VDD vip vin biascsn biason biasdpn GND csoutputnetNC opamp@@NUM
 * parameter sweep
 ** Run initial analysis
 *.save all
@@ -78,10 +78,10 @@ let linear_step_until = 0u
 let linear_step_default = 1.1u
 let bias_dp_Min  = 1u
 let bias_dp_Max  = 25u
-let bias_dp_logStep = 1.2
+let bias_dp_logStep = 1.5
 let bias_cs_Min  = 1u
 let bias_cs_Max  = 25u
-let bias_cs_logStep = 1.2
+let bias_cs_logStep = 1.5
 
 * output bias linear step
 let bias_o_Min   = 93.5u
