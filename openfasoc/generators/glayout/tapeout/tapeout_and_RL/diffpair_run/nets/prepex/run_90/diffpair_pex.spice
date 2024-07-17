@@ -1,0 +1,13 @@
+* NGSPICE file created from diffpair.ext - technology: sky130A
+
+.subckt diffpair minus drain_right drain_left source plus
+X0 drain_right minus source a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0.78 ps=4.78 w=2 l=0.2
+X1 drain_right minus source a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0.78 ps=4.78 w=2 l=0.2
+X2 drain_left plus source a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0.78 ps=4.78 w=2 l=0.2
+X3 a_n928_n1292# a_n928_n1292# a_n928_n1292# a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=6.24 ps=38.24 w=2 l=0.2
+X4 a_n928_n1292# a_n928_n1292# a_n928_n1292# a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0 ps=0 w=2 l=0.2
+X5 a_n928_n1292# a_n928_n1292# a_n928_n1292# a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0 ps=0 w=2 l=0.2
+X6 drain_left plus source a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0.78 ps=4.78 w=2 l=0.2
+X7 a_n928_n1292# a_n928_n1292# a_n928_n1292# a_n928_n1292# sky130_fd_pr__nfet_01v8 ad=0.78 pd=4.78 as=0 ps=0 w=2 l=0.2
+.ends
+

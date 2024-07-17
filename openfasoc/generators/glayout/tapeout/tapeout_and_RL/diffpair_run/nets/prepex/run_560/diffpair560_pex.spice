@@ -1,0 +1,13 @@
+* NGSPICE file created from diffpair560.ext - technology: sky130A
+
+.subckt diffpair560 minus drain_right drain_left source plus
+X0 drain_right minus source a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=9.5 ps=40.95 w=20 l=0.15
+X1 a_n976_n4892# a_n976_n4892# a_n976_n4892# a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=76 ps=327.6 w=20 l=0.15
+X2 drain_left plus source a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=9.5 ps=40.95 w=20 l=0.15
+X3 drain_left plus source a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=9.5 ps=40.95 w=20 l=0.15
+X4 a_n976_n4892# a_n976_n4892# a_n976_n4892# a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=0 ps=0 w=20 l=0.15
+X5 drain_right minus source a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=9.5 ps=40.95 w=20 l=0.15
+X6 a_n976_n4892# a_n976_n4892# a_n976_n4892# a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=0 ps=0 w=20 l=0.15
+X7 a_n976_n4892# a_n976_n4892# a_n976_n4892# a_n976_n4892# sky130_fd_pr__nfet_01v8 ad=9.5 pd=40.95 as=0 ps=0 w=20 l=0.15
+.ends
+

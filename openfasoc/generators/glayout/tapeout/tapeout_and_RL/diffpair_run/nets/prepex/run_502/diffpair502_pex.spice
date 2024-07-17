@@ -1,0 +1,21 @@
+* NGSPICE file created from diffpair502.ext - technology: sky130A
+
+.subckt diffpair502 minus drain_right drain_left source plus
+X0 source plus drain_left a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=2.475 ps=15.33 w=15 l=0.25
+X1 drain_left plus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=5.85 ps=30.78 w=15 l=0.25
+X2 source minus drain_right a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=2.475 ps=15.33 w=15 l=0.25
+X3 drain_right minus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=2.475 ps=15.33 w=15 l=0.25
+X4 drain_left plus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=2.475 ps=15.33 w=15 l=0.25
+X5 source minus drain_right a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=2.475 ps=15.33 w=15 l=0.25
+X6 drain_left plus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=5.85 ps=30.78 w=15 l=0.25
+X7 a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=46.8 ps=246.24 w=15 l=0.25
+X8 drain_left plus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=2.475 ps=15.33 w=15 l=0.25
+X9 drain_right minus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=2.475 ps=15.33 w=15 l=0.25
+X10 drain_right minus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=5.85 ps=30.78 w=15 l=0.25
+X11 a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.25
+X12 a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.25
+X13 a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=5.85 pd=30.78 as=0 ps=0 w=15 l=0.25
+X14 source plus drain_left a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=2.475 ps=15.33 w=15 l=0.25
+X15 drain_right minus source a_n1180_n3888# sky130_fd_pr__nfet_01v8 ad=2.475 pd=15.33 as=5.85 ps=30.78 w=15 l=0.25
+.ends
+

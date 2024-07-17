@@ -492,9 +492,9 @@ def diffpair_results_de_serializer(
 def get_diffpair_params_list(test_mode = False) -> np.array:
 	diffpairs = list()
 	if not test_mode: 
-		for width in [3, 6, 9]:
-			for length in [0.15, 0.5, 1.0]:
-				for finger in [4, 8, 12]:
+		for width in [1, 2, 3, 6, 9, 12, 15, 20, 25]:
+			for length in [0.15, 0.2, 0.25, 0.3, 0.5, 0.6, 0.7, 0.8]:
+				for finger in [1, 2, 3, 4, 5, 6, 7, 8, 10, 12]:
 					diffpairs.append(diff_pair_parameters_serializer(width=width, length=length, fingers=finger))
      
 	else:
@@ -756,7 +756,7 @@ def process_netlist_subckt(netlist: Union[str,Path], sim_model: Literal["normal 
 	with open(netlist, "w") as spice_net:
 		spice_net.writelines(subckt_lines)
 
-def process_spice_testbench(testbench: Union[str,Path], temperature_info: tuple[int,str]=(25,"normal model")):
+def process_spice_testbench(testbench: Union[str,Path], temperature_info: tuple[int,str]=(25,"normal model"), index: Optional[int] = None):
 	global PDK_ROOT
 	PDK_ROOT = Path(PDK_ROOT).resolve()
 	testbench = Path(testbench).resolve()

@@ -1,0 +1,33 @@
+* NGSPICE file created from diffpair215.ext - technology: sky130A
+
+.subckt diffpair215 minus drain_right drain_left source plus
+X0 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X1 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.6
+X2 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X3 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.6
+X4 a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=9.36 ps=54.24 w=3 l=0.6
+X5 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X6 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.6
+X7 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.6
+X8 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X9 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X10 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X11 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X12 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X13 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X14 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X15 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X16 a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.6
+X17 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.6
+X18 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X19 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X20 drain_right minus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=1.17 ps=6.78 w=3 l=0.6
+X21 source minus drain_right a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.6
+X22 a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.6
+X23 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X24 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0.495 ps=3.33 w=3 l=0.6
+X25 drain_left plus source a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+X26 a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=1.17 pd=6.78 as=0 ps=0 w=3 l=0.6
+X27 source plus drain_left a_n2018_n1488# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.495 ps=3.33 w=3 l=0.6
+.ends
+

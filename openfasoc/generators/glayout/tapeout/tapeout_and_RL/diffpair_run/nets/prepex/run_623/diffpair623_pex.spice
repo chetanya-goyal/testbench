@@ -1,0 +1,25 @@
+* NGSPICE file created from diffpair623.ext - technology: sky130A
+
+.subckt diffpair623 minus drain_right drain_left source plus
+X0 drain_left plus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=7.8 ps=40.78 w=20 l=0.7
+X1 a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=62.4 ps=326.24 w=20 l=0.7
+X2 source minus drain_right a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X3 source plus drain_left a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X4 a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=0 ps=0 w=20 l=0.7
+X5 drain_right minus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=7.8 ps=40.78 w=20 l=0.7
+X6 source plus drain_left a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X7 source minus drain_right a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X8 source plus drain_left a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=3.3 ps=20.33 w=20 l=0.7
+X9 drain_right minus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X10 source minus drain_right a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=3.3 ps=20.33 w=20 l=0.7
+X11 a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=0 ps=0 w=20 l=0.7
+X12 drain_right minus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X13 drain_left plus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=7.8 ps=40.78 w=20 l=0.7
+X14 source plus drain_left a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=3.3 ps=20.33 w=20 l=0.7
+X15 drain_right minus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=7.8 ps=40.78 w=20 l=0.7
+X16 drain_left plus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X17 a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=0 ps=0 w=20 l=0.7
+X18 drain_left plus source a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.7
+X19 source minus drain_right a_n1746_n4888# sky130_fd_pr__nfet_01v8 ad=7.8 pd=40.78 as=3.3 ps=20.33 w=20 l=0.7
+.ends
+

@@ -1,0 +1,33 @@
+* NGSPICE file created from diffpair315.ext - technology: sky130A
+
+.subckt diffpair315 minus drain_right drain_left source plus
+X0 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X1 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X2 a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=18.72 ps=102.24 w=6 l=0.8
+X3 a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.8
+X4 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X5 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X6 a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.8
+X7 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X8 a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0 ps=0 w=6 l=0.8
+X9 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X10 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.8
+X11 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X12 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X13 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.8
+X14 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.8
+X15 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.8
+X16 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.8
+X17 source minus drain_right a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X18 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X19 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.8
+X20 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X21 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X22 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=2.34 ps=12.78 w=6 l=0.8
+X23 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X24 drain_left plus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X25 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=2.34 pd=12.78 as=0.99 ps=6.33 w=6 l=0.8
+X26 drain_right minus source a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+X27 source plus drain_left a_n2298_n2088# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.8
+.ends
+
