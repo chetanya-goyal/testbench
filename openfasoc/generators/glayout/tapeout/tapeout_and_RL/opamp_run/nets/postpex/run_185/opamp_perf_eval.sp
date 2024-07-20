@@ -45,7 +45,10 @@ Ibiaso  VDD biason   {bo}
 
 ** Import opamp subcircuit
 .include opamp185_pex.spice
-XDUT vo VDD vip vin biascsn biason biasdpn GND csoutputnetNC opamp185
+* XDUT vo VDD vip vin biascsn biason biasdpn GND csoutputnetNC opamp185
+* .subckt opamp426 gnd CSoutput output vdd plus minus commonsourceibias outputibias
+* + diffpairibias
+XDUT GND csoutputnetNC vo VDD vip vin biascsn biason biasdpn opamp185
 * parameter sweep
 ** Run initial analysis
 *.save all
@@ -78,10 +81,10 @@ let linear_step_until = 0u
 let linear_step_default = 1.1u
 let bias_dp_Min  = 1u
 let bias_dp_Max  = 25u
-let bias_dp_logStep = 1.5
+let bias_dp_logStep = 1.2
 let bias_cs_Min  = 1u
 let bias_cs_Max  = 25u
-let bias_cs_logStep = 1.5
+let bias_cs_logStep = 1.2
 
 * output bias linear step
 let bias_o_Min   = 93.5u

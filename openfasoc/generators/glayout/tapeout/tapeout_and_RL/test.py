@@ -74,6 +74,7 @@ def extract_mid(tmp_gds_path, comp_name, tmpdirname, params, index, temperature_
     #     return
     # if os.path.exists(str(tmpdirname / f"{comp_name}_pex.spice")):
     #     return
+    # import pdb; pdb.set_trace()
     try:
         # Popen(["bash", "extract.bash", tmp_gds_path, comp_name + str(index)], cwd=tmpdirname).wait(timeout=750)
         # copyfile(f"{comp_name}_perf_eval.sp", str(tmpdirname / f"{comp_name}_perf_eval.sp"))
@@ -318,7 +319,8 @@ if __name__ == "__main__":
     elif sys.argv[-1] == "opamp":
         heredir = Path(__file__).parent.resolve() / "opamp_run" / "nets"
 
-        params = small_parameters_list(test_mode=True)
+        params = get_small_parameter_list()
+        # params = small_parameters_list(test_mode=False)
         # params = opamp_parameters_serializer()
         print(params)
         comp_name = "opamp"
